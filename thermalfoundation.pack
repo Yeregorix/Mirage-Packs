@@ -1,0 +1,20 @@
+version=1
+priority=0
+
+require thermalfoundation
+
+section=minecraft:overworld
+group=common
+thermalfoundation:ore
+thermalfoundation:ore_fluid[type=crude_oil_gravel]
+thermalfoundation:ore_fluid[type=crude_oil_red_sand]
+thermalfoundation:ore_fluid[type=crude_oil_sand]
+thermalfoundation:ore_fluid[type=redstone]
+
+section=minecraft:nether
+group=common
+thermalfoundation:ore_fluid[type=glowstone]
+
+section=minecraft:the_end
+group=common
+thermalfoundation:ore_fluid[type=ender]
